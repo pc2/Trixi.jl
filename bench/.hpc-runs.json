@@ -3,5 +3,10 @@
     "verdict": "success",
     "summary": "Benchmark suite Threads 1.10 PID.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| euler_source_terms/threads=1 | 5.3062429447174074e-08 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/threads=8 | 1.478430955180972e-07 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/threads=24 | 1.6016655133399268e-07 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/threads=48 | 1.7251823938760172e-07 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/threads=96 | 2.3559920431826714e-07 | unavailable | s | unavailable | no baseline |\n\nBaseline commit none, initial measurement.\n\nMeasured commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006, benchmark result success.\n\nWarning threshold 130%, failure threshold 200%.\n",
     "warnings": 0
+  },
+  "10376/161089/Threads 1.10 efficiency": {
+    "verdict": "success",
+    "summary": "Benchmark suite Threads 1.10 efficiency.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| euler_source_terms/threads=24 | 0.9230584930919965 | unavailable | ratio | unavailable | no baseline |\n| euler_source_terms/threads=48 | 0.8569708109873172 | unavailable | ratio | unavailable | no baseline |\n| euler_source_terms/threads=96 | 0.6275195026481428 | unavailable | ratio | unavailable | no baseline |\n\nBaseline commit none, initial measurement.\n\nMeasured commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006, benchmark result success.\n\nWarning threshold 125%, failure threshold 150%.\n",
+    "warnings": 0
   }
 }
