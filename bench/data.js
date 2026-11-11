@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794418395084,
+  "lastUpdate": 1794418414816,
   "repoUrl": "https://github.com/pc2/Trixi.jl",
   "entries": {
     "Threads 1.10 PID": [
@@ -262,6 +262,55 @@ window.BENCHMARK_DATA = {
             "name": "euler_source_terms/ranks=192",
             "value": 1.8257915877938036,
             "unit": "ratio"
+          }
+        ]
+      }
+    ],
+    "MPI 1.13 PID": [
+      {
+        "commit": {
+          "author": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "committer": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "id": "1041f3fe0152fe1c9961eda1c0679e2577dc2006",
+          "message": "update setup description",
+          "timestamp": "2026-11-11T16:31:59Z",
+          "url": "https://github.com/pc2/Trixi.jl/commit/1041f3fe0152fe1c9961eda1c0679e2577dc2006"
+        },
+        "date": 1794418414806,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "euler_source_terms/ranks=1",
+            "value": 5.9110314254760735e-8,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/ranks=8",
+            "value": 1.4874231160682019e-7,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/ranks=24",
+            "value": 1.5432585538659955e-7,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/ranks=96",
+            "value": 1.3950686982493447e-7,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/ranks=192",
+            "value": 1.0720642457938638e-7,
+            "unit": "s"
           }
         ]
       }
