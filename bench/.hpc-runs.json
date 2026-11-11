@@ -23,5 +23,10 @@
     "verdict": "success",
     "summary": "Benchmark suite MPI 1.10 PID.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| euler_source_terms/ranks=1 | 5.4638339112599684e-08 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/ranks=8 | 1.4859033892173465e-07 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/ranks=24 | 1.5283928685399944e-07 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/ranks=96 | 1.356058072466027e-07 | unavailable | s | unavailable | no baseline |\n| euler_source_terms/ranks=192 | 8.138406372070313e-08 | unavailable | s | unavailable | no baseline |\n\nBaseline commit none, initial measurement.\n\nMeasured commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006, benchmark result success.\n\nWarning threshold 130%, failure threshold 200%.\n",
     "warnings": 0
+  },
+  "10376/161089/MPI 1.10 efficiency": {
+    "verdict": "success",
+    "summary": "Benchmark suite MPI 1.10 efficiency.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| euler_source_terms/ranks=24 | 0.9721998969000449 | unavailable | ratio | unavailable | no baseline |\n| euler_source_terms/ranks=96 | 1.095752032591932 | unavailable | ratio | unavailable | no baseline |\n| euler_source_terms/ranks=192 | 1.8257915877938036 | unavailable | ratio | unavailable | no baseline |\n\nBaseline commit none, initial measurement.\n\nMeasured commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006, benchmark result success.\n\nWarning threshold 125%, failure threshold 150%.\n",
+    "warnings": 0
   }
 }
