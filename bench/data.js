@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794418451341,
+  "lastUpdate": 1794418469545,
   "repoUrl": "https://github.com/pc2/Trixi.jl",
   "entries": {
     "Threads 1.10 PID": [
@@ -384,6 +384,35 @@ window.BENCHMARK_DATA = {
             "name": "taylor_green_vortex/gpus=2",
             "value": 7.85806108269599e-10,
             "unit": "s"
+          }
+        ]
+      }
+    ],
+    "GPU 1.10 efficiency": [
+      {
+        "commit": {
+          "author": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "committer": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "id": "1041f3fe0152fe1c9961eda1c0679e2577dc2006",
+          "message": "update setup description",
+          "timestamp": "2026-11-11T16:31:59Z",
+          "url": "https://github.com/pc2/Trixi.jl/commit/1041f3fe0152fe1c9961eda1c0679e2577dc2006"
+        },
+        "date": 1794418469536,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "taylor_green_vortex/gpus=2",
+            "value": 0.906948735295567,
+            "unit": "ratio"
           }
         ]
       }
