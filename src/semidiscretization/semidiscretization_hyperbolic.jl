@@ -626,6 +626,10 @@ function rhs_hyperbolic!(du_ode, u_ode, semi::SemidiscretizationHyperbolic, t)
                                                                         boundary_conditions,
                                                                         source_terms,
                                                                         solver, cache)
+    # Deliberate slowdown to test the benchmark alerts, the call recomputes the same du.
+    rhs_hyperbolic!(backend, du, u, t, mesh, equations, boundary_conditions,
+                    source_terms,
+                    solver, cache)
     runtime = time_ns() - time_start
     put!(semi.performance_counter, runtime)
 
