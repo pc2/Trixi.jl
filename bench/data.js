@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794418504215,
+  "lastUpdate": 1794909976249,
   "repoUrl": "https://github.com/pc2/Trixi.jl",
   "entries": {
     "Threads 1.10 PID": [
@@ -383,6 +383,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "taylor_green_vortex/gpus=2",
             "value": 7.85806108269599e-10,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "committer": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "id": "d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c",
+          "message": "update hpc-cb-workflow\n\n- simpler benchmark configuration\n- additional permission check",
+          "timestamp": "2026-11-16T17:04:36Z",
+          "url": "https://github.com/pc2/Trixi.jl/commit/d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c"
+        },
+        "date": 1794909976239,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "taylor_green_vortex/gpus=1",
+            "value": 7.157581099155776e-10,
+            "unit": "s"
+          },
+          {
+            "name": "taylor_green_vortex/gpus=2",
+            "value": 7.81136161596377e-10,
             "unit": "s"
           }
         ]
