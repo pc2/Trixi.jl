@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794910066525,
+  "lastUpdate": 1794910085594,
   "repoUrl": "https://github.com/pc2/Trixi.jl",
   "entries": {
     "Threads 1.10 PID": [
@@ -480,6 +480,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "euler_source_terms/ranks=192",
             "value": 1.387438413233122,
+            "unit": "ratio"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "committer": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "id": "d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c",
+          "message": "update hpc-cb-workflow\n\n- simpler benchmark configuration\n- additional permission check",
+          "timestamp": "2026-11-16T17:04:36Z",
+          "url": "https://github.com/pc2/Trixi.jl/commit/d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c"
+        },
+        "date": 1794910085585,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "euler_source_terms/ranks=24",
+            "value": 0.9633835650861461,
+            "unit": "ratio"
+          },
+          {
+            "name": "euler_source_terms/ranks=96",
+            "value": 1.0598343680248943,
+            "unit": "ratio"
+          },
+          {
+            "name": "euler_source_terms/ranks=192",
+            "value": 1.5337423883438928,
             "unit": "ratio"
           }
         ]
