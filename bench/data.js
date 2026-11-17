@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794910130583,
+  "lastUpdate": 1794910152607,
   "repoUrl": "https://github.com/pc2/Trixi.jl",
   "entries": {
     "Threads 1.10 PID": [
@@ -218,6 +218,53 @@ window.BENCHMARK_DATA = {
           {
             "name": "euler_source_terms/threads=96",
             "value": 2.796149489093992e-7,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "committer": {
+            "name": "Gerrit Pape",
+            "username": "papeg",
+            "email": "gerrit.pape@uni-paderborn.de"
+          },
+          "id": "d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c",
+          "message": "update hpc-cb-workflow\n\n- simpler benchmark configuration\n- additional permission check",
+          "timestamp": "2026-11-16T17:04:36Z",
+          "url": "https://github.com/pc2/Trixi.jl/commit/d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c"
+        },
+        "date": 1794910152598,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "euler_source_terms/threads=1",
+            "value": 5.77673978360494e-8,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/threads=8",
+            "value": 2.0525476231612556e-7,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/threads=24",
+            "value": 2.4255920619516396e-7,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/threads=48",
+            "value": 2.329213190051381e-7,
+            "unit": "s"
+          },
+          {
+            "name": "euler_source_terms/threads=96",
+            "value": 2.8138669070166173e-7,
             "unit": "s"
           }
         ]
