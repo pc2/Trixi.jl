@@ -78,5 +78,10 @@
     "verdict": "success",
     "summary": "Benchmark suite GPU 1.13 efficiency.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| taylor_green_vortex/gpus=2 | 0.9042895497951614 | 0.9230991590579899 | ratio | 1.021 | ok |\n\nBaseline commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006.\n\nMeasured commit d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c, benchmark result success.\n\nWarning threshold 125%, failure threshold 150%.\n",
     "warnings": 0
+  },
+  "10376/162222/MPI 1.10 PID": {
+    "verdict": "success",
+    "summary": "Benchmark suite MPI 1.10 PID.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| euler_source_terms/ranks=1 | 5.4478711128234864e-08 | 5.4638339112599684e-08 | s | 0.997 | ok |\n| euler_source_terms/ranks=8 | 1.5068227259117786e-07 | 1.4859033892173465e-07 | s | 1.014 | ok |\n| euler_source_terms/ranks=24 | 1.532699796970457e-07 | 1.5283928685399944e-07 | s | 1.003 | ok |\n| euler_source_terms/ranks=96 | 1.3466913129874862e-07 | 1.356058072466027e-07 | s | 0.993 | ok |\n| euler_source_terms/ranks=192 | 8.853004418732765e-08 | 8.138406372070313e-08 | s | 1.088 | ok |\n\nBaseline commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006.\n\nMeasured commit d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c, benchmark result success.\n\nWarning threshold 130%, failure threshold 200%.\n",
+    "warnings": 0
   }
 }
