@@ -108,5 +108,10 @@
     "verdict": "success",
     "summary": "Benchmark suite Threads 1.10 efficiency.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| euler_source_terms/threads=24 | 0.9290382283454548 | 0.9230584930919965 | ratio | 0.994 | ok |\n| euler_source_terms/threads=48 | 0.8513761068404057 | 0.8569708109873172 | ratio | 1.007 | ok |\n| euler_source_terms/threads=96 | 0.6209228777967396 | 0.6275195026481428 | ratio | 1.011 | ok |\n\nBaseline commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006.\n\nMeasured commit d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c, benchmark result success.\n\nWarning threshold 125%, failure threshold 150%.\n",
     "warnings": 0
+  },
+  "10376/162222/Threads 1.13 PID": {
+    "verdict": "success",
+    "summary": "Benchmark suite Threads 1.13 PID.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| euler_source_terms/threads=1 | 5.77673978360494e-08 | 5.782948930740357e-08 | s | 0.999 | ok |\n| euler_source_terms/threads=8 | 2.0525476231612556e-07 | 2.0659243364108825e-07 | s | 0.994 | ok |\n| euler_source_terms/threads=24 | 2.4255920619516396e-07 | 2.418888693727339e-07 | s | 1.003 | ok |\n| euler_source_terms/threads=48 | 2.329213190051381e-07 | 2.3118911754105828e-07 | s | 1.007 | ok |\n| euler_source_terms/threads=96 | 2.8138669070166173e-07 | 2.796149489093992e-07 | s | 1.006 | ok |\n\nBaseline commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006.\n\nMeasured commit d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c, benchmark result success.\n\nWarning threshold 130%, failure threshold 200%.\n",
+    "warnings": 0
   }
 }
