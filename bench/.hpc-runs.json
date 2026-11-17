@@ -58,5 +58,10 @@
     "verdict": "success",
     "summary": "Benchmark suite GPU 1.13 efficiency.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| taylor_green_vortex/gpus=2 | 0.9230991590579899 | unavailable | ratio | unavailable | no baseline |\n\nBaseline commit none, initial measurement.\n\nMeasured commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006, benchmark result success.\n\nWarning threshold 125%, failure threshold 150%.\n",
     "warnings": 0
+  },
+  "10376/162222/GPU 1.10 PID": {
+    "verdict": "success",
+    "summary": "Benchmark suite GPU 1.10 PID.\n\n| Measurement | Current | Baseline | Unit | Ratio | Status |\n| --- | --- | --- | --- | --- | --- |\n| taylor_green_vortex/gpus=1 | 7.157581099155776e-10 | 7.126858560826442e-10 | s | 1.004 | ok |\n| taylor_green_vortex/gpus=2 | 7.81136161596377e-10 | 7.85806108269599e-10 | s | 0.994 | ok |\n\nBaseline commit 1041f3fe0152fe1c9961eda1c0679e2577dc2006.\n\nMeasured commit d195a48271d87a3d7cc6d70c2c2a7e166a19ac1c, benchmark result success.\n\nWarning threshold 120%, failure threshold 200%.\n",
+    "warnings": 0
   }
 }
